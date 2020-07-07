@@ -1,0 +1,4 @@
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Main-Class: se.effectivecode.tools.deploymentserver.Application
+

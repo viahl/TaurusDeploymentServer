@@ -1,0 +1,17 @@
+<div class="div-footer">
+  <div class="footer-center">
+    <form class="">
+      <div class="loadingData" *ngIf="dataLoading">
+        <app-loading></app-loading>
+      </div>
+      <mat-form-field appearance="outline">
+        <input matInput placeholder="URL git" #input
+               [formControl]="repo"
+               (change)="onChangeUrl()">
+      </mat-form-field>
+
+      <button [disabled]="dataLoading" mat-raised-button class="add-project-button" (click)="save()">Lägg till projekt
+      </button>
+    </form>
+  </div>
+</div>
