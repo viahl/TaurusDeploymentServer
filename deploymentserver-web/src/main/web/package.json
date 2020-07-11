@@ -1,6 +1,10 @@
 {
   "name": "web",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": "Viggo Ahl",
+  "email": "viggo@effectivecode.se",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -48,6 +52,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
+    "typescript": "~3.2.2",
+    "gulp-sass": "^3.1.0"
   }
 }
