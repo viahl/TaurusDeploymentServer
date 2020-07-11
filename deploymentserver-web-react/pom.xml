@@ -24,7 +24,7 @@
             <plugin>
                 <groupId>org.openapitools</groupId>
                 <artifactId>openapi-generator-maven-plugin</artifactId>
-                <version>3.3.4</version>
+                <version>4.3.1</version>
                 <executions>
                     <execution>
                         <goals>
@@ -34,7 +34,7 @@
                             <inputSpec>${project.basedir}/src/main/resources/deploymentserver.json
                             </inputSpec>
                             <output>${swagger-generated-output}</output>
-                            <generatorName>typescript-angular</generatorName>
+                            <generatorName>typescript-rxjs</generatorName>
                             <configOptions>
                                 <sourceFolder>${swagger-generated-output}</sourceFolder>
                                 <host>${host}</host>
